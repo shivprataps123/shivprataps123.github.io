@@ -18,10 +18,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 35rem;
+    width: 35rem; 
     height: 35rem;
     border-radius: 50%;
-    background-image: url("../img/Profile pic.jpg");
+    /*background-image: url("../img/Profile pic.jpg");*/
     background-position: center;
     background-size: cover;
     transition: ease-in-out 0.3s;

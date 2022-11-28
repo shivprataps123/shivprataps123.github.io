@@ -1,4 +1,5 @@
-import "../styles/about.css";
+//import "../styles/about.css";
+import '../styles/about.css'
 function About() {
   return (
     <div className="container" data-aos={"fade-right"}>
