@@ -1,0 +1,98 @@
+#home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    display: flex;
+    
+  }
+  
+  #home>div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #home img {
+    height: 50%;
+    border-radius: 8px;
+    background-image: linear-gradient(-45deg, #0784a7, #000000);
+    background-size: 200% 200%;
+  }
+  
+  .name {
+    /* position: absolute; */
+  
+    color: lightyellow;
+    text-align: center;
+  }
+  
+  .name button {
+    background-image: linear-gradient(45deg, #0784a7, #000000);
+    background-size: 200% 200%;
+    color: white;
+    padding: 21px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .name button:hover {
+    background-image: linear-gradient(-45deg, #0784a7, #000000);
+    background-size: 200% 200%;
+  }
+  
+  .name p {
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  
+  .name h1 {
+    margin: 20px 0;
+    font-size: 30px;
+    color: black;
+  }
+  
+  #nav {
+    width: 100%;
+    height: 60px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    #home {
+      flex-direction: column-reverse;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .name h1 {
+      margin: 10px 0;
+      font-size: 18px;
+      width: 100%;
+    }
+  
+    .name {
+      width: 100%;
+    }
+  
+    #home img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: bottom;
+    }
+  
+    .name button {
+      background-color: rgb(71 155 189);
+      color: white;
+      margin-top: 35px;
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
