@@ -1,4 +1,7 @@
 import React from "react";
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillTwitterSquare} from 'react-icons/ai';
+import {AiFillGithub} from 'react-icons/ai'
 import("./Contact.css");
 
 export default function Contact() {
@@ -16,27 +19,30 @@ export default function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-github"></i>
+             
+              <AiFillGithub className="fontlink"/>
             </a>
             <a
               href="https://www.linkedin.com/in/shiv-pratap-singh-yadav-252b25236/overlay/contact-info/"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-linkedin"></i>
+              <AiFillLinkedin className="fontlink"/>
+              
             </a>
             <a
               href="https://twitter.com/ShivPra13467191"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fab fa-twitter"></i>
+              {/* <i class="fab fa-twitter"></i> */}
+              <AiFillTwitterSquare className="fontlink"/>
             </a>
           </div>
         </div>
       </div>
       <div className="copyright" style={{textAlign:"center"}}>
-        No © copyright issues | Inspired by Manoj
+        <h4>No © copyright issues | Made by Shiv</h4>
       </div>
     </>
   );

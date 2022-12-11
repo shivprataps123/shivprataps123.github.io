@@ -1,17 +1,26 @@
 //import img from "./hemant.jpeg";
 import React from "react";
+
+import pdf from '../../Shiv_Pratap_Singh_Yadav_Resume.pdf'
+//import ReactDOM from 'react-dom/client';
 import "./Home.css";
-export default function Home() {
+
+
+const Home=()=>{
   return (
     <div id="home">
       <div className="name">
         <h1>Hi there!</h1>
-        <h1>I'm Shiv Pratap Singh Yadav</h1>
+		<h1>I am Shiv Pratap Singh Yadav</h1>
+        {/* <div className="typed_wrap">
+                     <h1> <span>I am</span> <span className="typed"></span></h1>
+                   </div> */}
         <h1>Full-Stack Web Developer</h1>
         <a
-          href="https://drive.google.com/file/d/1FDi6FTc3jF13LVBwpJlRNpdCgthyZ53k/view?usp=sharing"
+          href={pdf}
           target="_blank"
           rel="noreferrer"
+          download
         >
           <button>Resume</button>
         </a>
@@ -22,3 +31,5 @@ export default function Home() {
     </div>
   );
 }
+export default Home;
+

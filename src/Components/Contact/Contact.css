@@ -1,5 +1,11 @@
+.fontlink{
+    font-size:26px;
+   color:rgb(252, 252, 124);;
+
+}
 .connect{
-    background-image: linear-gradient(45deg, #0784a7, #c3f7ff);
+  background-color: #131f33;
+    
     background-size: 200% 200%;
     box-sizing: border-box;
     padding: 15px;
@@ -22,8 +28,8 @@
 }
 
 .copyright {
-    background-color: #000;
-    color: rgb(255, 255, 255);
+    background-color:#131f33;
+    color:white;
     font-size: 12px;
     padding: 5px;
     text-align: cent

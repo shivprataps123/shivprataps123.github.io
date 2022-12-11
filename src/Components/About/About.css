@@ -1,43 +1,49 @@
 #about {
     width: 100%;
     padding: 40px 124px;
-    margin: 30px auto;
-    background-image: linear-gradient(45deg, #0784a7, #c3f7ff);
+    /* margin: 30px auto; */
+    background-color:#131f33;
     background-size: 200% 200%;
     box-sizing: border-box;
     scroll-margin-top: 70px;
   }
   .h11 {
+    color:white;
     padding-top: 2%;
+    font-family: 'Roboto', sans-serif;
     /* border: 3px solid black; */
   }
   #about h1 {
     text-align: center;
+    padding-bottom:20px;
+    
   }
   
   #about p {
     margin: 5px 20px;
     font-size: 18px;
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
   }
   #about ul {
-    color: white;
+    color:white;
     margin: 20px 40px 0;
-    font-size: 18px;
+    font-size: 32px;
   }
   
   #img {
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
     height: 200px;
     margin: 25px auto;
+    border-radius: 10px;
     width: 300px;
   }
   #img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15%;
   }
   
   @media only screen and (max-width: 600px) {

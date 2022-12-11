@@ -1,17 +1,25 @@
 import Link from "react-scroll/modules/components/Link";
 import React from "react";
 import "./Navbar.css";
+import {GiHamburgerMenu} from 'react-icons/gi'
+import pdf from '../../Shiv_Pratap_Singh_Yadav_Resume.pdf'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { fas } from '@fortawesome/free-solid-svg-icons'
+// import { far } from '@fortawesome/free-regular-svg-icons'
+// import { fab } from '@fortawesome/free-brands-svg-icons'
+
 export default function Navbar() {
   return (
     <div className="navbar">
       <div className="logo">
-        <h1>Shiv</h1>
+        <h1>My Portfolio.</h1>
       </div>
       <input id="checkbox" type="checkbox" />
       <div id="bar">
         <label htmlFor="checkbox">
-        {/* <i class="fa fa-bar-chart"></i> */}
-        <i class="fa-solid fa-bars"></i>
+        
+        {/* <i class="fa-solid fa-bars"></i> */}
+        <GiHamburgerMenu className="hamburger"/>
         </label>
       </div>
       <ul className="nav-ul">
@@ -31,13 +39,16 @@ export default function Navbar() {
           <li>Contact</li>
         </Link>
         <a
-          href="https://drive.google.com/file/d/1FDi6FTc3jF13LVBwpJlRNpdCgthyZ53k/view?usp=sharing"
+          href={pdf}
           target="_blank"
           rel="noreferrer"
+          download
         >
           <li>Resume</li>
         </a>
       </ul>
+      
     </div>
+    
   );
 }

@@ -4,11 +4,13 @@
     position: relative;
     margin: auto;
     display: flex;
+    background-color: #131f33;
     
   }
   
   #home>div {
     width: 50%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,23 +18,25 @@
   }
   
   #home img {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     height: 50%;
     border-radius: 8px;
-    background-image: linear-gradient(-45deg, #0784a7, #000000);
+    background-image: #1C2541;
     background-size: 200% 200%;
   }
   
   .name {
     /* position: absolute; */
   
-    color: lightyellow;
+    color: white;
     text-align: center;
   }
   
   .name button {
-    background-image: linear-gradient(45deg, #0784a7, #000000);
+    background-color:#131f33;
     background-size: 200% 200%;
-    color: white;
+    color:white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding: 21px;
     font-size: 24px;
     font-weight: bold;
@@ -41,7 +45,7 @@
   }
   
   .name button:hover {
-    background-image: linear-gradient(-45deg, #0784a7, #000000);
+    background-color: #131f33;
     background-size: 200% 200%;
   }
   
@@ -53,7 +57,8 @@
   .name h1 {
     margin: 20px 0;
     font-size: 30px;
-    color: black;
+    color:white;
+    
   }
   
   #nav {
@@ -87,9 +92,10 @@
     }
   
     .name button {
-      background-color: rgb(71 155 189);
+      background-color: #131f33;
       color: white;
       margin-top: 35px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
       padding: 15px;
       font-size: 22px;
       font-weight: bold;
