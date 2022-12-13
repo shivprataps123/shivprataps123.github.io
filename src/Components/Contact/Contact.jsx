@@ -42,7 +42,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="copyright" style={{textAlign:"center"}}>
-        <h4>No © copyright issues | Made by Shiv</h4>
+        <h4>You can clone my website | Made by Shiv</h4>
       </div>
     </>
   );

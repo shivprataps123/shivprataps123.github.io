@@ -4,7 +4,7 @@
     position: relative;
     margin: auto;
     display: flex;
-    background-color: #131f33;
+    background-color: #d3d3d3;
     
   }
   
@@ -31,6 +31,7 @@
     color: white;
     text-align: center;
   }
+ 
   
   .name button {
     background-color:#131f33;
@@ -41,9 +42,16 @@
     font-size: 24px;
     font-weight: bold;
     border-radius: 5px;
-    border: none;
+    border: 1px solid white;
+  cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
   }
-  
+ 
+  .download{
+    color:white;
+    font-size: 25px;
+}
   .name button:hover {
     background-color: #131f33;
     background-size: 200% 200%;

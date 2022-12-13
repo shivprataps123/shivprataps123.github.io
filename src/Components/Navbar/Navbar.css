@@ -13,7 +13,7 @@
 
   font-family: 'Work Sans', sans-serif;
   /* background-image: linear-gradient(45deg, #0784a7, #000000); */
-  background-color: #131f33 ;
+  background-color: black ;
 /* background-size: 200% 200%; */
  
 }
@@ -32,22 +32,34 @@
  
 }
 .navbar ul li:hover {
-color:red
+color:#d3d3d3
 }
 
 #checkbox {
   display: none;
 }
-.hamburger {
-  display: none;
+.Hamburger{
+  display:none !important;
 }
-
+/* #bar{
+  display:none;
+} */
+/* @media only screen and (min-width:481px)and(max-width:899px){
+  #bar{
+    display: block !important;
+  }
+}
+@media only screen and (min-width:340px)and(max-width:480px){
+  #bar{
+    display:block !important
+  }
+} */
 @media only screen and (max-width: 900px) {
   .navbar {
     padding: 0 20px;
   }
   .navbar ul {
-  background-color:  #131f33;
+  background-color:  black;
   
     position: fixed;
     top: 60px;
@@ -61,7 +73,7 @@ color:red
   #checkbox:checked ~ .nav-ul {
     left: 0;
   }
-  .hamburger{
+  .Hamburger{
     font-size: 25px;
     display: block;
   }
