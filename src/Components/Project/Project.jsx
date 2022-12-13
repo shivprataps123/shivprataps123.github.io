@@ -12,19 +12,18 @@ import("./Project.css");
 export default function Proj(props) {
 
   return (
+
     <div id="project" className="proj">
       <h1 className="h14">My Recent Work</h1>
       <div className="projCont">
-       
-
          <div className="final">
           <div className="img">
             <img src={vella} alt="" />
           </div>
           <div>
-            <h2>Bella Vita Organic Clone</h2>
+            <h2 style={{fontSize:"20px"}}>Bella Vita Organic Clone</h2>
             <p>
-            Bella Vita Organic.com is a leading Online skin care products in India that offers
+              Bella Vita Organic.com is a leading Online skin care products in India that offers
               prescription cosmetics and its different products all over India.
               Vita provide Cosmetics to us which ensure skin health to all the
               individuals and chemicals free.  
@@ -75,7 +74,7 @@ export default function Proj(props) {
             <img src={fabbag} alt="" />
           </div>
           <div>
-            <h2>Fabbag clone</h2>
+            <h2 style={{fontSize:"20px"}}>Fabbag clone</h2>
             <p>
               Fabbag.com is a leading Online Cosmetics in India that offers
               prescription cosmetics and its different products all over India.
@@ -121,7 +120,7 @@ export default function Proj(props) {
             <img src={kind} alt="" />
           </div>
           <div>
-            <h2> Foodians clone</h2>
+            <h2 style={{fontSize:"20px"}}> Foodians clone</h2>
             <p>
               Foodians is an International food brand 
               Company. It is an food Website Clone Where Users can see food Items through this website.

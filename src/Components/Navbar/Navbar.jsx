@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="logo">
-        <h1 style={{fontFamily:"cursive"}}>Shiv.Pr</h1>
+        <h1 className="logo-h1" style={{fontFamily:"cursive"}}>Shiv.Pr</h1>
       </div>
       <input id="checkbox" type="checkbox" />
       <div id="bar">

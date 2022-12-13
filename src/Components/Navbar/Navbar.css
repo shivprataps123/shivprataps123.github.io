@@ -5,15 +5,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 90px;
+  padding: 20px 100px;
   position: fixed;
   z-index: 1;
   box-sizing: border-box;
   color: white;
-
   font-family: 'Work Sans', sans-serif;
   /* background-image: linear-gradient(45deg, #0784a7, #000000); */
-  background-color: black ;
+  background-color: #131f33;
 /* background-size: 200% 200%; */
  
 }
@@ -41,25 +40,26 @@ color:#d3d3d3
 .Hamburger{
   display:none !important;
 }
-/* #bar{
-  display:none;
-} */
-/* @media only screen and (min-width:481px)and(max-width:899px){
+
+#bar{
+  display: none;
+}
+@media only screen and (min-width:340px) and (max-width:480px){
+      #bar{
+        display: block !important;
+      }
+} 
+@media only screen and (min-width:481px) and (max-width:890px){
   #bar{
     display: block !important;
   }
 }
-@media only screen and (min-width:340px)and(max-width:480px){
-  #bar{
-    display:block !important
-  }
-} */
 @media only screen and (max-width: 900px) {
   .navbar {
     padding: 0 20px;
   }
   .navbar ul {
-  background-color:  black;
+  background-color: #131f33;
   
     position: fixed;
     top: 60px;

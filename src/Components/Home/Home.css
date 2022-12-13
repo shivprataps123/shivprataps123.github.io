@@ -1,112 +1,122 @@
 #home {
+  width: 80%;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+  display: flex;
+  /* background-color: #f2e8ca; */
+}
+
+.text-colors{
+  color: #131f33;
+}
+#home>div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home img {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 50%;
+  border-radius: 8px;
+  background-image: #1C2541;
+  background-size: 200% 200%;
+  border-radius: 4%;
+}
+
+.name {
+  /* position: absolute; */
+  color: white;
+  text-align: center;
+}
+.auto-type{
+margin-bottom: 4%;
+}
+/* .f7{
+  font-size: 25px;
+} */
+.name button {
+  background-color:#131f33;
+  background-size: 200% 200%;
+  color:white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 21px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  /* border: 1px solid white; */
+  /* cursor: pointer; */
+  border-radius: 4%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 0.5s;
+}
+
+.name > a:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: white;
+    color: #131f33;
+}
+
+.download{
+  color:white;
+  font-size: 25px;
+}
+.name button:hover {
+  background-color: #131f33;
+  background-size: 200% 200%;
+}
+
+.name p {
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+.name h1 {
+  margin: 20px 0;
+  font-size: 40px;
+  /* color:white; */
+  color: #131f33;
+}
+
+#nav {
+  width: 100%;
+  height: 60px;
+}
+.portButton{
+  display: flex;
+  align-self:center;
+  align-items: center;
+  border:1px solid white;
+}
+
+@media only screen and (max-width: 900px) {
+  #home {
+    flex-direction: column-reverse;
     width: 100%;
-    height: 100vh;
-    position: relative;
-    margin: auto;
-    display: flex;
-    background-color: #d3d3d3;
-    
-  }
-  
-  #home>div {
-    width: 50%;
-    
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
-  
-  #home img {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    height: 50%;
-    border-radius: 8px;
-    background-image: #1C2541;
-    background-size: 200% 200%;
-  }
-  
-  .name {
-    /* position: absolute; */
-  
-    color: white;
-    text-align: center;
-  }
- 
-  
-  .name button {
-    background-color:#131f33;
-    background-size: 200% 200%;
-    color:white;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    padding: 21px;
-    font-size: 24px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 1px solid white;
-  cursor: pointer;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-   
-  }
- 
-  .download{
-    color:white;
-    font-size: 25px;
-}
-  .name button:hover {
-    background-color: #131f33;
-    background-size: 200% 200%;
-  }
-  
-  .name p {
-    margin: 20px 0;
-    font-size: 25px;
-  }
-  
+
   .name h1 {
-    margin: 20px 0;
-    font-size: 30px;
-    color:white;
-    
-  }
-  
-  #nav {
+    margin: 10px 0;
+    font-size: 18px;
     width: 100%;
-    height: 60px;
   }
-  
-  @media only screen and (max-width: 900px) {
-    #home {
-      flex-direction: column-reverse;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .name h1 {
-      margin: 10px 0;
-      font-size: 18px;
-      width: 100%;
-    }
-  
-    .name {
-      width: 100%;
-    }
-  
-    #home img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      object-position: bottom;
-    }
-  
-    .name button {
-      background-color: #131f33;
-      color: white;
-      margin-top: 35px;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-      padding: 15px;
-      font-size: 22px;
-      font-weight: bold;
-      border-radius: 5px;
-    }
+
+  .name {
+    width: 100%;
   }
+
+  #home img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  
+}

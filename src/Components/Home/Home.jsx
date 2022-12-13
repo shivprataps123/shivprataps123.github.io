@@ -9,14 +9,17 @@ import "./Home.css";
 
 const Home=()=>{
   return (
+
     <div id="home">
       <div className="name">
-        <h1>Hi there!</h1>
-		<h1>I am Shiv Pratap Singh Yadav</h1>
-    <Typewriter
+        <h1 className='text-color f7'>Hi there!</h1>
+		    <h1 className='text-color f7'>I am Shiv Pratap Singh Yadav</h1>
+          <h1>
+              <Typewriter
+                className='auto-type'
                 options={{
                   strings: [
-                      "A Full Stack Developer.",
+                      "A Full Stack Web Developer.",
                       "A Problem Solver.",
                   ],
                    autoStart: true,
@@ -24,15 +27,14 @@ const Home=()=>{
                   deleteSpeed: 80,
                 }}
               />
-        {/* <h1>Full-Stack Web Developer</h1> */}
+          </h1>
         <a
           href={pdf}
           target="_blank"
           rel="noreferrer"
           download
         >
-          <button>Resume <BiDownload className="download"/></button>
-         
+          <button className='portButton'>Resume<BiDownload className="download"/></button>
         </a>
       </div>
       <div>

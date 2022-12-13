@@ -1,0 +1,56 @@
+.githead{
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color:#131f33;
+    margin-top: 50px;
+}
+.calendar{
+    width:80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.stats{
+    width:50%;
+    margin: auto;
+    border: 0px solid red;
+    margin-top: 20px;
+}
+.stats1{
+    /* height: 190px; */
+    width: 60%;
+    margin: auto;
+    /* margin-left: 437px; */
+    border: 0px solid red;
+    margin-top: 40px;
+   
+}
+.img1{
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img2{
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img3{
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.stats2{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    border: 0px solid red;
+    
+}
+.stats3{
+   
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    border: 0px solid red;
+}

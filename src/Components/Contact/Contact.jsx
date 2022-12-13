@@ -9,10 +9,11 @@ export default function Contact() {
     <>
       <div id="contact" className="connect">
         <div className="container">
-          <h1>Contact Me</h1>
+          <h1 className="con-head">Contact Me</h1>
           <p>
-            Drop me a mail at <strong>shivpratapsinghyadav38@gmail.com</strong>
+            Drop me a mail at <strong> <a href="mailto:shivpratapsinghyadav38@gmail.com" className="mail-id">shivpratapsinghyadav38@gmail.com</a></strong>
           </p>
+          
           <div className="links">
             <a
               href="https://github.com/shivprataps123"
@@ -39,11 +40,13 @@ export default function Contact() {
               <AiFillTwitterSquare className="fontlink"/>
             </a>
           </div>
+
+          <h4 className="copyright-text">You can clone my website | Made by Shiv</h4>
         </div>
       </div>
-      <div className="copyright" style={{textAlign:"center"}}>
+      {/* <div className="copyright" style={{textAlign:"center"}}>
         <h4>You can clone my website | Made by Shiv</h4>
-      </div>
+      </div> */}
     </>
   );
 }

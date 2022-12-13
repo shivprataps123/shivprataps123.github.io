@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import Skill from "./Components/Skill/Skill";
 import Contact from "./Components/Contact/Contact";
 import Proj from "./Components/Project/Project";
+import Github from "./Components/Stats/Github";
 //import Proj from './Components/Project/Project';
 //import Stats from './Components/Stats'
 function App(){
@@ -15,7 +16,7 @@ function App(){
         <Home/>
         <About/>
         <Skill/>
-        
+        <Github/>
         <Proj/>
         <Contact/>
         </>

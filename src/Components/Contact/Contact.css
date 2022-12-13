@@ -4,8 +4,7 @@
 
 }
 .connect{
-  background-color:black;
-    
+    background-color: #131f33;
     background-size: 200% 200%;
     box-sizing: border-box;
     padding: 15px;
@@ -26,11 +25,23 @@
     color: white;
     margin: 20px;
 }
-
+.copyright-text{
+    margin-top: 4%;
+    color: white;
+}
 .copyright {
-    background-color:#d3d3d3;
+    background-color:#131f33;
     color:white;
-    font-size: 12px;
+    margin-top: 4%;
+    font-size: 16px;
     padding: 5px;
     text-align: cent
+}
+.con-head{
+    margin-bottom: 4%;
+    /* font-size: 16px; */
+}
+.mail-id{
+    color: #f2e8ca;
+    letter-spacing: 1px;
 }
