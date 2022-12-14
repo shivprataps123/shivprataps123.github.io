@@ -91,6 +91,8 @@ margin-bottom: 4%;
   align-self:center;
   align-items: center;
   border:1px solid white;
+  height: 60px;
+  
 }
 
 @media only screen and (max-width: 900px) {

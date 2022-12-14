@@ -54,3 +54,42 @@
     margin-top: 40px;
     border: 0px solid red;
 }
+@media only screen and (min-width:340px) and (max-width:480px){
+    .stats1{
+        /* height: 190px; */
+        width: 100%;
+        
+       
+    }
+    .stats2{
+        width: 100%;
+        
+        
+        
+    }
+    .stats3{
+       
+        width: 100%;
+        
+    }
+    }
+  
+   @media only screen and (min-width:481px) and (max-width:890px){
+    .stats1{
+        /* height: 190px; */
+        width: 100%;
+        
+       
+    }
+    .stats2{
+        width: 100%;
+        
+        
+        
+    }
+    .stats3{
+       
+        width: 100%;
+        
+    }
+  }
