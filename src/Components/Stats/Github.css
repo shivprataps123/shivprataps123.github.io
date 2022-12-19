@@ -8,18 +8,18 @@
 .githead-div{
     width: 90%;
     margin: auto;
-    border: px solid red;
+  
 }
 .calendar{
    
     margin: auto;
-    border:px solid red;
+ 
     margin-top: 60px;
 }
 .stats{
     width:50%;
     margin: auto;
-    border: 0px solid red;
+  
     margin-top: 20px;
 }
 .stats1{
@@ -27,7 +27,7 @@
     width: 60%;
     margin: auto;
     /* margin-left: 437px; */
-    border: 0px solid red;
+   
     margin-top: 40px;
    
 }
@@ -50,7 +50,7 @@
     width: 60%;
     margin: auto;
     margin-top: 40px;
-    border: 0px solid red;
+    
     
 }
 .stats3{
@@ -58,7 +58,7 @@
     width: 60%;
     margin: auto;
     margin-top: 40px;
-    border: 0px solid red;
+ 
 }
 @media only screen and (min-width:340px) and (max-width:480px){
     .stats1{
@@ -90,7 +90,7 @@
     .calendar{
         width:100%;
         margin: auto;
-        border:px solid red;
+       
         margin-top: 60px;
         
     }
