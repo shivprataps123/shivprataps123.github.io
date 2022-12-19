@@ -15,8 +15,9 @@ const Github = () => {
             <div className='calendar'>
                 <GitHubCalendar
                     username="shivprataps123"
-                    blockSize={15}
-                    blockMargin={5}
+                    blockSize={22}
+                    blockMargin={2}
+                    width='100%'
                     color="blue"
                     fontSize={15}
                 />

@@ -31,6 +31,7 @@
   /* position: absolute; */
   color: white;
   text-align: center;
+  margin-top:10px;
 }
 .auto-type{
 margin-bottom: 4%;
@@ -48,11 +49,12 @@ margin-bottom: 4%;
   font-weight: bold;
   border-radius: 5px;
   /* border: 1px solid white; */
-  /* cursor: pointer; */
+  cursor: pointer;
   border-radius: 4%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   transition: 0.5s;
 }
+
 
 .name > a:hover{
     transition: 0.5s;
@@ -111,6 +113,7 @@ margin-bottom: 4%;
 
   .name {
     width: 100%;
+    margin-top: 10px;
   }
 
   #home img {
@@ -121,4 +124,9 @@ margin-bottom: 4%;
   }
 
   
+}
+@media only screen and (min-width:340px) and (max-width:480px){
+  .name{
+    margin-top: 10px;
+  }
 }

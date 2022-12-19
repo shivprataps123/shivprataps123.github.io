@@ -1,5 +1,5 @@
 #skill {
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin: auto;
   padding: 4%;
@@ -36,7 +36,7 @@
   font-size: 14px;
   font-family: sans-serif;
   color: #131f33;
-  padding: 25px;
+  padding: 30px;
   padding-top:15px;
   
 }
@@ -53,9 +53,14 @@
     height: 70px;
     font-size: 17px;
     margin: auto;
-    padding: 25px;
+    padding: 10px;
     padding-top:15px;
     
+  }
+  #skill {
+    
+    margin-top: 10%;
+   
   }
 } 
  @media only screen and (min-width:481px) and (max-width:890px){

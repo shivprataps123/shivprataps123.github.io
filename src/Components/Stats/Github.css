@@ -5,9 +5,15 @@
     color:#131f33;
     margin-top: 50px;
 }
-.calendar{
-    width:80%;
+.githead-div{
+    width: 90%;
     margin: auto;
+    border: px solid red;
+}
+.calendar{
+   
+    margin: auto;
+    border:px solid red;
     margin-top: 60px;
 }
 .stats{
@@ -58,38 +64,34 @@
     .stats1{
         /* height: 190px; */
         width: 100%;
-        
-       
     }
     .stats2{
         width: 100%;
-        
-        
-        
     }
     .stats3{
        
         width: 100%;
-        
     }
     }
-  
-   @media only screen and (min-width:481px) and (max-width:890px){
+  @media only screen and (min-width:481px) and (max-width:890px){
     .stats1{
         /* height: 190px; */
         width: 100%;
-        
-       
     }
     .stats2{
         width: 100%;
-        
-        
-        
     }
     .stats3{
        
         width: 100%;
+    }
+  }
+  @media only screen and (min-width:890px) and (max-width:1580px){
+    .calendar{
+        width:100%;
+        margin: auto;
+        border:px solid red;
+        margin-top: 60px;
         
     }
   }

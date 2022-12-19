@@ -1,11 +1,17 @@
 
+.about-sec{
+width: 90%;
+margin: auto;
+
+}
 .about-2{
   width: 50%;
 }
 .about-2 >h2{
 font-size: 36px;
+text-align: center;
 color: white;
-margin-bottom: 7%;
+margin-bottom: 8%;
 
 }
 
@@ -25,6 +31,7 @@ border-radius: 4%;
 .about-2>p{
 font-size: 20px;
 line-height: 32px;
+margin-bottom: 5%;
 
 }
 .about-sec{
@@ -33,6 +40,11 @@ line-height: 32px;
   margin: auto;
   
 
+}
+.about-1{
+  border:px solid red;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 
@@ -62,13 +74,16 @@ line-height: 32px;
    .about-2>p{
     text-align: center;
     font-size: 20px;
-   
-    
-    }
+   }
     .me{
       text-align: center;
     }
     .about-2{
       width: 100%;
     }
+}
+@media only screen and (min-width:890px) and (max-width:1580px){
+  .about-2{
+    padding: auto;
+  }
 }
