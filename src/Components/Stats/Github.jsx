@@ -6,7 +6,7 @@ const Github = () => {
   return (
     <div className='githead-div'>
         <h1 className="githead">
-          GitHub Statistics & Calender section
+          GitHub Statistics & Calender
         </h1>
 
 

@@ -2,14 +2,7 @@ import Link from "react-scroll/modules/components/Link";
 import React from "react";
 import Hamburger from  'hamburger-react';
 import "./Navbar.css";
-
-//import {GiHamburgerMenu} from 'react-icons/gi'
 import pdf from '../../Shiv_Pratap_Singh_Yadav_Resume.pdf'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { far } from '@fortawesome/free-regular-svg-icons'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-
 export default function Navbar() {
   return (
     <div className="navbar">

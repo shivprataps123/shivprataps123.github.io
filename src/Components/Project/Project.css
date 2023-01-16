@@ -4,7 +4,8 @@
 }
 .proj {
     width: 90%;
-    margin: 30px auto;
+    margin:auto;
+    /* border: 1px solid red; */
     text-align: center;
     /* padding: 15px 15px; */
     box-sizing: border-box;
@@ -14,8 +15,9 @@
   .h14 {
     
     font-family: 'Roboto', sans-serif;
-    padding-top: 7%;
-    color:#131f33
+    padding-top: 4%;
+    color:#131f33;
+    
   }
   .proj > h1 {
     margin: 10px;
@@ -23,13 +25,14 @@
   
   .projCont {
     display: flex;
+    /* border: 1px solid red; */
     flex-direction: column;
     width: 100%;
     column-gap: 25px;
-    margin: auto;
-    padding: 35px;
-    box-sizing: border-box;
-    justify-content: center;
+    /* margin: auto; */
+    /* padding: 35px; */
+    /* box-sizing: border-box; */
+    /* justify-content: center; */
     gap: 20px;
   }
   
@@ -38,8 +41,8 @@
     width: 100%;
     border: none;
     background-color: #131f33;
-  
-    padding: 2%;
+   
+    
   
   }
   .final > div {

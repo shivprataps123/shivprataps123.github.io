@@ -5,21 +5,34 @@ import {FaReact} from 'react-icons/fa';
 import vella from '../../764x310_1.png';
 import fabbag from '../../Women_s-page---Reveal.png'
 import kind from '../../707-4819-m.png'
+import Slider from "react-slick";
 import("./Project.css");
 
 
 
 export default function Proj(props) {
-
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
 
     <div id="project" className="proj">
       <h1 className="h14">My Recent Work</h1>
       <div className="projCont">
+         
          <div className="final">
+          {/* ----------------------- */}
+         
           <div className="img">
             <img src={vella} alt="" />
           </div>
+          
+          
+          {/* ----------------------------------- */}
           <div>
             <h2 style={{fontSize:"20px"}}>Bella Vita Organic Clone</h2>
             <p>
@@ -150,7 +163,7 @@ export default function Proj(props) {
             </div>
             <div className="buttons">
               <a
-                href="https://637101ca12789d526d05c864--foodians.netlify.app/"
+                href="https://63aaaa0d46200d5048f590fd--shimmering-cassata-1c0a0d.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
