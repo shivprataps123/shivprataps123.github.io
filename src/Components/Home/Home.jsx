@@ -2,7 +2,7 @@
 import Typewriter from 'typewriter-effect'
 import React from "react";
 import {BiDownload} from 'react-icons/bi'
-import pdf from '../../Shiv_Pratap_Singh_Yadav_Resume.pdf'
+import pdf from '../../fp06_006-Shiv_Pratap_Singh_Yadav_Resume.pdf'
 //import ReactDOM from 'react-dom/client';
 import "./Home.css";
 

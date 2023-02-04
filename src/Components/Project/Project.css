@@ -1,6 +1,7 @@
 .techfont{
   color:white;
   font-size: 22px;
+  
 }
 .proj {
     width: 90%;
@@ -70,7 +71,7 @@
     display: flex;
     justify-content: center;
     margin: 10px auto;
-    column-gap: 10px;
+    column-gap: 7px;
   }
   
   .tech div {
@@ -136,7 +137,7 @@
     .final > div {
       width: 100%;
     }
-    /* .tech div {
+    /* .tech{
       width: 90px;
     } */
   }

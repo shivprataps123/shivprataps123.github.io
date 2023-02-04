@@ -2,7 +2,7 @@ import Link from "react-scroll/modules/components/Link";
 import React from "react";
 import Hamburger from  'hamburger-react';
 import "./Navbar.css";
-import pdf from '../../Shiv_Pratap_Singh_Yadav_Resume.pdf'
+import pdf from '../../fp06_006-Shiv_Pratap_Singh_Yadav_Resume.pdf'
 export default function Navbar() {
   return (
     <div className="navbar">
