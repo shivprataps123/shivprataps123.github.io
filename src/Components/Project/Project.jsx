@@ -44,10 +44,6 @@ export default function Proj(props) {
                <AiFillHtml5 className="techfont"/>
                 <p>HTML</p>
               </div>
-              {/* <div>
-                <DiCss3 className="techfont"/>
-                <p>CSS</p>
-              </div> */}
               <div>
                 <TbBrandJavascript className="techfont"/>
                 <p>JavaScript</p>

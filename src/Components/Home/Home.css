@@ -1,6 +1,6 @@
 #home {
   width: 80%;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   margin: auto;
   display: flex;
@@ -94,7 +94,7 @@ margin-bottom: 4%;
   align-items: center;
   border:1px solid white;
   height: 60px;
-  
+  border-radius: 5px !important;
 }
 
 @media only screen and (max-width: 900px) {

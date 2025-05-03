@@ -2,20 +2,18 @@
 .about-sec{
 width: 90%;
 margin: auto;
-
+border-radius: 8px !important;
 }
 .about-2{
   width: 50%;
-  margin-left: 17px;
+  margin-left: 5%;
 }
 .about-2 >h2{
 font-size: 36px;
 text-align: center;
 color: white;
-margin-bottom: 8%;
+/* margin-bottom: 5%; */
 margin-right: 15%;
-
-
 }
 
 .main-about{
@@ -35,23 +33,17 @@ border-radius: 4%;
 font-size: 20px;
 line-height: 32px;
 margin-bottom: 5%;
+text-align: justify;
 
 }
 .about-sec{
   background-color: #131f33;
   display: flex;
   margin: auto;
-  
-
 }
 .about-1{
-
-  padding-right: 20px;
   padding-top: 10px;
 }
-
-
-
 @media only screen and (min-width:340px) and (max-width:480px){
  .main-about{
   flex-direction: column-reverse;
